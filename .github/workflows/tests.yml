@@ -21,13 +21,14 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
-          pip install playwright
-          playwright install
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+          python -m pip install playwright
+          python -m playwright install
 
       - name: Run tests with Allure results
         run: |
-          pytest -n auto --alluredir=allure-results
+          python -m pytest -n auto --alluredir=allure-results
 
       - name: Upload Allure results
         uses: actions/upload-artifact@v4
