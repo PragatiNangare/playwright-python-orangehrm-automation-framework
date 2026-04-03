@@ -26,6 +26,7 @@ jobs:
           python -m pip install playwright
           python -m playwright install
           python -m pip install pytest
+          python -m pip install yaml 
 
       - name: Run tests with Allure results
         run: |
