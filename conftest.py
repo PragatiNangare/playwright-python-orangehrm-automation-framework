@@ -1,4 +1,4 @@
-from playwright.sync_api import sync_playwright
+from playwright.async_api import async_playwright
 from utils.config_reader import load_config
 from utils.data_loader import load_test_data
 from pages.login_page import LoginPage
@@ -11,7 +11,7 @@ def config():
 
 @pytest.fixture
 def page(config):
-    playwright = sync_playwright().start()
+    playwright = async_playwright().start()
     browser = playwright.chromium.launch(headless=config["headless"])
     context = browser.new_context()
     page = context.new_page()
