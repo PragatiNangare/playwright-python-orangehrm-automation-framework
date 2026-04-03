@@ -1,0 +1,5 @@
+[32mINFO    [0m root:login_page.py:39 Performing login
+[32mINFO    [0m root:login_page.py:21 Entering username
+[32mINFO    [0m root:login_page.py:26 Entering password
+[32mINFO    [0m root:login_page.py:31 Clicking login button
+[32mINFO    [0m root:login_page.py:47 Login successful - Dashboard loaded

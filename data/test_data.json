@@ -1,0 +1,27 @@
+{
+  "valid_login": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+  "invalid_login": {
+    "username": "wrong",
+    "password": "wrong123"
+  },
+  "employees": [
+    {
+      "first_name": "John",
+      "middle_name": "H",
+      "last_name": "Doe"
+    },
+    {
+      "first_name": "Sam",
+      "middle_name": "K",
+      "last_name": "Smith"
+    },
+    {
+      "first_name": "Priya",
+      "middle_name": "R",
+      "last_name": "Sharma"
+    }
+  ]
+}

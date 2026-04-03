@@ -1,0 +1,4 @@
+browser: chromium
+headless: false
+slow_mo: 1000
+base_url: "https://opensource-demo.orangehrmlive.com/"
