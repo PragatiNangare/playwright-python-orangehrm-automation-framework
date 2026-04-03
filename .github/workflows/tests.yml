@@ -27,7 +27,7 @@ jobs:
           python -m playwright install
           python -m pip install pytest
           python -m pip install pyyaml
-          python -m pip install playwright allure-pytest
+          python -m pip install playwright allure-pytest pytest-html pytest-xdist
 
       - name: Run tests with Allure results
         run: |
