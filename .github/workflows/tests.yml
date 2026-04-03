@@ -31,7 +31,7 @@ jobs:
 
       - name: Run tests with Allure results
         run: |
-          python -m pytest -n auto --alluredir=allure-results
+          python -m pytest --alluredir=allure-results
 
       - name: Upload Allure results
         uses: actions/upload-artifact@v4
